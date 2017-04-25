@@ -1,0 +1,75 @@
+body {
+    margin: 0 auto;
+    background: #17141F;
+}
+
+h1 {
+    font-family: 'Baloo Chettan', cursive;
+    color: #6441A5;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.twitch {
+    border: 3px solid #333;
+    border-radius: 7px;
+    margin: 30px auto;
+    width: 45%;
+    background: white;
+}
+
+.channel {
+    border-top: 3px solid #333;
+    padding: 15px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #333;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.channelname {
+    padding-left: 10px;
+    margin: 0;
+    min-width: 30%;
+    display: inline-block;
+}
+
+.streamingstatus {
+    margin-bottom: 0;
+}
+
+.isonline {
+    background: #DDFFCC;
+}
+
+.isoffline {
+    /*background: #FFD9D8;*/
+    background: #FFCECE;
+}
+
+.isunavailable {
+    background: #EDF2F2;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #EEE;
+    text-align: center;
+}
+
+#author {
+    text-decoration: none;
+    color: #EEE;
+}
